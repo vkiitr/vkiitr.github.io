@@ -24,18 +24,11 @@ Access, [localhost:4000/](http://localhost:4000/)
 
 ### Demo and Download
 
-[Demo](https://nandomoreirame.github.io/end2end/)
+[Demo](https://vkiitr.github.io/)
 [Download](https://github.com/vkiitr/vkiitr.github.io/archive/master.zip)
 
-![free Jekyll theme](/screenshot.png)
+![Preview](/screenshot.png)
 
 ---
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
-
-> :warning:
-  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `source/_layouts/default.html`
 
 Enjoy :yum:

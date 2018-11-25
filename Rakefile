@@ -124,7 +124,7 @@ task :page do
     post.puts "permalink: \"#{slug}\""
     post.puts "slug: \"#{slug}\""
     post.puts "---"
-    post.puts "{% include JB/setup %}"
+    post.puts "Hi! Start from here"
   end
 end # task :page
 

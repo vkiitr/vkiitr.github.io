@@ -1,0 +1,54 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "/page/:num/"
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: Vikas Kumar
+description: "My Learnings"
+keywords: "Vikas, vkiitr, blog"
+url: https://vkiitr.github.io
+baseurl: ""
+
+google_analytics: IN-52446115-1
+repo: https://github.com/vkiitr/vkiitr.github.io.git
+disqus_shortname: "vkiitrthemes"
+disqus_site_shortname: "vkiitrthemes"
+
+# Author settings
+author:
+  name: Vikas Kumar
+  job: Sr Software Engineer, Veritas, Pune
+  bio: "Enthusiast software engineer having knowldge of security (certificate, communication) domain, Data Structures."
+  thumb: /images/author.jpg
+  email: vkiitr@gmail.com
+  url: https://vkiitr.github.io/
+  github: https://github.com/vkiitr
+  twitter: https://twitter.com/_kumarvikas
+  facebook: https://facebook.com/vkiitr
+  linkedin: https://linkedin.com/in/vkiitr
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: icons
+    title: Icons
+  - slug: blog
+    title: Blog
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]

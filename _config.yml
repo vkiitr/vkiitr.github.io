@@ -50,7 +50,9 @@ navbar:
 #    title: Icons
   - slug: blog
     title: Blog
+  - slug: search
+    title: Search 
   - slug: cv
     title: CV
-
+ 
 exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]

@@ -1,0 +1,68 @@
+
+
+[
+  
+  
+    
+    
+      {
+        "title": "Welcome to My blog!",
+        "excerpt": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n",
+        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.\n\n",
+        "url": "/blog/2018/welcome-to-my-blog/"
+      },
+    
+      {
+        "title": "Java Notes!",
+        "excerpt": " X.509 Certificate \n An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.\n",
+        "content": " X.509 Certificate \n An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.\n",
+        "url": "/blog/2018/java-notes/"
+      },
+    
+      {
+        "title": "Security Notes!",
+        "excerpt": " X.509 Certificate \n An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.\n",
+        "content": " X.509 Certificate \n An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.\n",
+        "url": "/blog/2018/security-notes/"
+      },
+    
+  
+  
+  
+  {
+    "title": "About",
+    "excerpt": "\n",
+    "content": "I have done Master of Computer Applications from IIT Roorkee in 2013. I am currently working as a software engineer in Veritas, Pune, India. My area of expertise include knowledge of security (certificate, communication) domain, implementation of REST based web services using Spring REST (Java) and can handle server-side implementation independently. I am selfmotivated person, and ready to learn new technology stack.\n",
+    "url": "/about/"
+  },
+  
+  {
+    "title": "Icons fonts",
+    "excerpt": "\n",
+    "content": "\n\n\n  \n    \n      \n        \n        home\n      \n    \n  \n    \n      \n        \n        pencil\n      \n    \n  \n    \n      \n        \n        image\n      \n    \n  \n    \n      \n        \n        images\n      \n    \n  \n    \n      \n        \n        camera\n      \n    \n  \n    \n      \n        \n        headphones\n      \n    \n  \n    \n      \n        \n        music\n      \n    \n  \n    \n      \n        \n        play\n      \n    \n  \n    \n      \n        \n        price-tag\n      \n    \n  \n    \n      \n        \n        price-tags\n      \n    \n  \n    \n      \n        \n        barcode\n      \n    \n  \n    \n      \n        \n        qrcode\n      \n    \n  \n    \n      \n        \n        cart\n      \n    \n  \n    \n      \n        \n        phone\n      \n    \n  \n    \n      \n        \n        phone-hang-up\n      \n    \n  \n    \n      \n        \n        address-book\n      \n    \n  \n    \n      \n        \n        envelop\n      \n    \n  \n    \n      \n        \n        location\n      \n    \n  \n    \n      \n        \n        location2\n      \n    \n  \n    \n      \n        \n        calendar\n      \n    \n  \n    \n      \n        \n        keyboard\n      \n    \n  \n    \n      \n        \n        display\n      \n    \n  \n    \n      \n        \n        laptop\n      \n    \n  \n    \n      \n        \n        mobile\n      \n    \n  \n    \n      \n        \n        mobile2\n      \n    \n  \n    \n      \n        \n        drawer\n      \n    \n  \n    \n      \n        \n        drawer2\n      \n    \n  \n    \n      \n        \n        floppy-disk\n      \n    \n  \n    \n      \n        \n        undo\n      \n    \n  \n    \n      \n        \n        redo\n      \n    \n  \n    \n      \n        \n        undo2\n      \n    \n  \n    \n      \n        \n        redo2\n      \n    \n  \n    \n      \n        \n        bubble\n      \n    \n  \n    \n      \n        \n        bubbles2\n      \n    \n  \n    \n      \n        \n        bubble2\n      \n    \n  \n    \n      \n        \n        bubbles4\n      \n    \n  \n    \n      \n        \n        user\n      \n    \n  \n    \n      \n        \n        users\n      \n    \n  \n    \n      \n        \n        user-tie\n      \n    \n  \n    \n      \n        \n        quotes-left\n      \n    \n  \n    \n      \n        \n        quotes-right\n      \n    \n  \n    \n      \n        \n        spinner2\n      \n    \n  \n    \n      \n        \n        spinner5\n      \n    \n  \n    \n      \n        \n        spinner8\n      \n    \n  \n    \n      \n        \n        spinner11\n      \n    \n  \n    \n      \n        \n        search\n      \n    \n  \n    \n      \n        \n        zoom-in\n      \n    \n  \n    \n      \n        \n        zoom-out\n      \n    \n  \n    \n      \n        \n        enlarge\n      \n    \n  \n    \n      \n        \n        shrink\n      \n    \n  \n    \n      \n        \n        enlarge2\n      \n    \n  \n    \n      \n        \n        shrink2\n      \n    \n  \n    \n      \n        \n        lock\n      \n    \n  \n    \n      \n        \n        unlocked\n      \n    \n  \n    \n      \n        \n        wrench\n      \n    \n  \n    \n      \n        \n        equalizer2\n      \n    \n  \n    \n      \n        \n        cog\n      \n    \n  \n    \n      \n        \n        cogs\n      \n    \n  \n    \n      \n        \n        bug\n      \n    \n  \n    \n      \n        \n        pie-chart\n      \n    \n  \n    \n      \n        \n        stats-dots\n      \n    \n  \n    \n      \n        \n        stats-bars\n      \n    \n  \n    \n      \n        \n        mug\n      \n    \n  \n    \n      \n        \n        bin\n      \n    \n  \n    \n      \n        \n        briefcase\n      \n    \n  \n    \n      \n        \n        airplane\n      \n    \n  \n    \n      \n        \n        truck\n      \n    \n  \n    \n      \n        \n        switch\n      \n    \n  \n    \n      \n        \n        power-cord\n      \n    \n  \n    \n      \n        \n        clipboard\n      \n    \n  \n    \n      \n        \n        menu\n      \n    \n  \n    \n      \n        \n        menu2\n      \n    \n  \n    \n      \n        \n        menu3\n      \n    \n  \n    \n      \n        \n        menu4\n      \n    \n  \n    \n      \n        \n        cloud\n      \n    \n  \n    \n      \n        \n        cloud-download\n      \n    \n  \n    \n      \n        \n        cloud-upload\n      \n    \n  \n    \n      \n        \n        cloud-check\n      \n    \n  \n    \n      \n        \n        earth\n      \n    \n  \n    \n      \n        \n        link\n      \n    \n  \n    \n      \n        \n        attachment\n      \n    \n  \n    \n      \n        \n        eye\n      \n    \n  \n    \n      \n        \n        eye-blocked\n      \n    \n  \n    \n      \n        \n        star-empty\n      \n    \n  \n    \n      \n        \n        star-half\n      \n    \n  \n    \n      \n        \n        star-full\n      \n    \n  \n    \n      \n        \n        heart\n      \n    \n  \n    \n      \n        \n        man\n      \n    \n  \n    \n      \n        \n        woman\n      \n    \n  \n    \n      \n        \n        man-woman\n      \n    \n  \n    \n      \n        \n        warning\n      \n    \n  \n    \n      \n        \n        notification\n      \n    \n  \n    \n      \n        \n        question\n      \n    \n  \n    \n      \n        \n        plus\n      \n    \n  \n    \n      \n        \n        minus\n      \n    \n  \n    \n      \n        \n        info\n      \n    \n  \n    \n      \n        \n        cancel-circle\n      \n    \n  \n    \n      \n        \n        blocked\n      \n    \n  \n    \n      \n        \n        cross\n      \n    \n  \n    \n      \n        \n        checkmark\n      \n    \n  \n    \n      \n        \n        checkmark2\n      \n    \n  \n    \n      \n        \n        loop2\n      \n    \n  \n    \n      \n        \n        infinite\n      \n    \n  \n    \n      \n        \n        shuffle\n      \n    \n  \n    \n      \n        \n        arrow-right2\n      \n    \n  \n    \n      \n        \n        arrow-left2\n      \n    \n  \n    \n      \n        \n        circle-up\n      \n    \n  \n    \n      \n        \n        circle-right\n      \n    \n  \n    \n      \n        \n        circle-down\n      \n    \n  \n    \n      \n        \n        circle-left\n      \n    \n  \n    \n      \n        \n        shift\n      \n    \n  \n    \n      \n        \n        ctrl\n      \n    \n  \n    \n      \n        \n        checkbox-checked\n      \n    \n  \n    \n      \n        \n        checkbox-unchecked\n      \n    \n  \n    \n      \n        \n        radio-checked\n      \n    \n  \n    \n      \n        \n        radio-unchecked\n      \n    \n  \n    \n      \n        \n        filter\n      \n    \n  \n    \n      \n        \n        share\n      \n    \n  \n    \n      \n        \n        new-tab\n      \n    \n  \n    \n      \n        \n        embed\n      \n    \n  \n    \n      \n        \n        embed2\n      \n    \n  \n    \n      \n        \n        terminal\n      \n    \n  \n    \n      \n        \n        share2\n      \n    \n  \n    \n      \n        \n        mail\n      \n    \n  \n    \n      \n        \n        mail2\n      \n    \n  \n    \n      \n        \n        mail3\n      \n    \n  \n    \n      \n        \n        mail4\n      \n    \n  \n    \n      \n        \n        google3\n      \n    \n  \n    \n      \n        \n        google-plus\n      \n    \n  \n    \n      \n        \n        google-plus2\n      \n    \n  \n    \n      \n        \n        google-plus3\n      \n    \n  \n    \n      \n        \n        hangouts\n      \n    \n  \n    \n      \n        \n        google-drive\n      \n    \n  \n    \n      \n        \n        facebook\n      \n    \n  \n    \n      \n        \n        facebook2\n      \n    \n  \n    \n      \n        \n        instagram\n      \n    \n  \n    \n      \n        \n        whatsapp\n      \n    \n  \n    \n      \n        \n        spotify\n      \n    \n  \n    \n      \n        \n        telegram\n      \n    \n  \n    \n      \n        \n        twitter\n      \n    \n  \n    \n      \n        \n        rss\n      \n    \n  \n    \n      \n        \n        rss2\n      \n    \n  \n    \n      \n        \n        youtube\n      \n    \n  \n    \n      \n        \n        vimeo\n      \n    \n  \n    \n      \n        \n        flickr2\n      \n    \n  \n    \n      \n        \n        dribbble\n      \n    \n  \n    \n      \n        \n        behance\n      \n    \n  \n    \n      \n        \n        behance2\n      \n    \n  \n    \n      \n        \n        dropbox\n      \n    \n  \n    \n      \n        \n        github\n      \n    \n  \n    \n      \n        \n        trello\n      \n    \n  \n    \n      \n        \n        wordpress\n      \n    \n  \n    \n      \n        \n        joomla\n      \n    \n  \n    \n      \n        \n        tux\n      \n    \n  \n    \n      \n        \n        appleinc\n      \n    \n  \n    \n      \n        \n        finder\n      \n    \n  \n    \n      \n        \n        android\n      \n    \n  \n    \n      \n        \n        skype\n      \n    \n  \n    \n      \n        \n        linkedin\n      \n    \n  \n    \n      \n        \n        linkedin2\n      \n    \n  \n    \n      \n        \n        chrome\n      \n    \n  \n    \n      \n        \n        firefox\n      \n    \n  \n    \n      \n        \n        IE\n      \n    \n  \n    \n      \n        \n        edge\n      \n    \n  \n    \n      \n        \n        safari\n      \n    \n  \n    \n      \n        \n        opera\n      \n    \n  \n    \n      \n        \n        html-five\n      \n    \n  \n    \n      \n        \n        html-five2\n      \n    \n  \n    \n      \n        \n        css3\n      \n    \n  \n    \n      \n        \n        git\n      \n    \n  \n\n\n\n",
+    "url": "/icons/"
+  },
+  
+  {
+    "title": "CV",
+    "excerpt": "\n",
+    "content": "hello world!\n",
+    "url": "/cv/"
+  },
+  
+  {
+    "title": "Search",
+    "excerpt": "Search for a page or post you’re looking for\n",
+    "content": "{% include site-search.html %}\n",
+    "url": "/search/"
+  },
+  
+  {
+    "title": "Vikas Kumar",
+    "excerpt": "\n",
+    "content": "\n  {% for post in paginator.posts %}\n    {% include article.html %}\n  {% endfor %}\n\n  {% include pagination.html %}\n\n",
+    "url": "/blog/index.html"
+  }
+  
+]
+

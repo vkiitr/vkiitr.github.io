@@ -9,8 +9,8 @@
 <meta name="description" content="My Learnings">
 
 <link rel="stylesheet" href="/css/main.css">
-<link rel="canonical" href="http://matrix.pne.ven.veritas.com:4001/sw.js">
-<link rel="alternate" type="application/rss+xml" title="Vikas Kumar" href="http://matrix.pne.ven.veritas.com:4001/feed.xml" />
+<link rel="canonical" href="http://localhost:4000/sw.js">
+<link rel="alternate" type="application/rss+xml" title="Vikas Kumar" href="http://localhost:4000/feed.xml" />
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -25,7 +25,7 @@
 
 </head>
 <body>
-  const version = '20181126201625';
+  const version = '20181127142203';
 const cacheName = `static::${version}`;
 
 const buildContentBlob = () => {

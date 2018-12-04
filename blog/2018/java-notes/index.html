@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Java Notes!</title>
-<meta name="description" content=" X.509 Certificate  An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard ...">
+<title>Java Cheat Sheet!</title>
+<meta name="description" content="Hashmap =&gt; Hashtable or ConcurrentHashMap.">
 
 <link rel="stylesheet" href="/css/main.css">
 <link rel="canonical" href="http://localhost:4000/blog/2018/java-notes/">
@@ -43,8 +43,6 @@
         
           <li><a href="/search" title="Search">Search</a></li>
         
-          <li><a href="/cv" title="CV">CV</a></li>
-        
         <li><!--a href="https://github.com/vkiitr/vkiitr.github.io.git/archive/master.zip" title="Download">Download</a--></li>
         <li><a href="/feed.xml" target="_blank"><i class="icon icon-rss"></i></a></li>
       </ul>
@@ -59,7 +57,7 @@
 
   <div class="card">
     <header class="post-header">
-      <h1 class="post-title">Java Notes!</h1>
+      <h1 class="post-title">Java Cheat Sheet!</h1>
       <em class="post-meta">
         <time>Nov 25, 2018</time>
       </em>
@@ -67,8 +65,33 @@
 
     <div class="post-content">
       
-      <h3> X.509 Certificate </h3>
-<p> An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.</p>
+      <p>Hashmap =&gt; Hashtable or ConcurrentHashMap.</p>
+
+<hr />
+
+<p>Immutable objects are those, whose state can not be changed once created e.g. java.lang.String, once created can not be modified e.g. trim, uppercase, lowercase. All modification in String result in new object.</p>
+
+<hr />
+
+<p>Collections such as <code>HashMap</code> and <code>HashSet</code> use a hashcode value of an object to determine how it should be stored inside a collection, and the hashcode is used again in order to locate the object in its collection. 
+Hashing retrieval is a two-step process:</p>
+<ul>
+  <li>Find the right bucket (using <code>hashCode()</code>)</li>
+  <li>Search the bucket for the right element (using <code>equals()</code> )</li>
+</ul>
+
+<hr />
+
+<p>Basically REST is stateless means every HTTP request happens in complete isolation. When the client makes an HTTP request, it includes all information necessary for the server to fulfill that request. The server never relies on information from previous requests. If that information was important, the client would have sent it again in this request. 
+Statelessness is easier to distribute across load-balanced servers. Since no two requests depend on each other, they can be handled by two different servers that never coordinate.</p>
+
+<p>A practical example.</p>
+
+<p>Suppose we have a cluster of 12 identical J2EE webapp servers. Each one has the same application installed on it. We expect thousands of hits per hour. 
+If the webapp was stateful, once a client had logged into one of those servers, the session state (HttpSession) would (usually) reside in RAM within that server. If a later request came in and that server was loaded down but other servers were idle, they could not be employed to handle the request. Or at a minimum, could not be employed unless the cluster was set up to serialize sessions and ship them between servers, which is extra overhead. There would be an asymmetry between the server currently holding the user’s state and the other webapp servers.</p>
+
+<p>A stateless webapp, on the other hand, wouldn’t establish an HttpSession. Any ongoing state would be an artefact of (presumably distributed) backend processes. So you could send out requests to any server in the cluster that happened to be free at the moment. They would all be symmetrical in their response.</p>
+
 
     </div>
 

@@ -5,8 +5,8 @@
     <description>My Learnings</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Nov 2018 14:22:03 +0530</pubDate>
-    <lastBuildDate>Tue, 27 Nov 2018 14:22:03 +0530</lastBuildDate>
+    <pubDate>Tue, 04 Dec 2018 19:39:34 +0530</pubDate>
+    <lastBuildDate>Tue, 04 Dec 2018 19:39:34 +0530</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -22,9 +22,34 @@
       </item>
     
       <item>
-        <title>Java Notes!</title>
-        <description>&lt;h3&gt; X.509 Certificate &lt;/h3&gt;
-&lt;p&gt; An X.509 certificate is a digital certificate that uses the widely accepted international X.509 public key infrastructure (PKI) standard to verify that a public key belongs to the user, computer or service identity contained within the certificate.&lt;/p&gt;
+        <title>Java Cheat Sheet!</title>
+        <description>&lt;p&gt;Hashmap =&amp;gt; Hashtable or ConcurrentHashMap.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Immutable objects are those, whose state can not be changed once created e.g. java.lang.String, once created can not be modified e.g. trim, uppercase, lowercase. All modification in String result in new object.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Collections such as &lt;code&gt;HashMap&lt;/code&gt; and &lt;code&gt;HashSet&lt;/code&gt; use a hashcode value of an object to determine how it should be stored inside a collection, and the hashcode is used again in order to locate the object in its collection. 
+Hashing retrieval is a two-step process:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Find the right bucket (using &lt;code&gt;hashCode()&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Search the bucket for the right element (using &lt;code&gt;equals()&lt;/code&gt; )&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Basically REST is stateless means every HTTP request happens in complete isolation. When the client makes an HTTP request, it includes all information necessary for the server to fulfill that request. The server never relies on information from previous requests. If that information was important, the client would have sent it again in this request. 
+Statelessness is easier to distribute across load-balanced servers. Since no two requests depend on each other, they can be handled by two different servers that never coordinate.&lt;/p&gt;
+
+&lt;p&gt;A practical example.&lt;/p&gt;
+
+&lt;p&gt;Suppose we have a cluster of 12 identical J2EE webapp servers. Each one has the same application installed on it. We expect thousands of hits per hour. 
+If the webapp was stateful, once a client had logged into one of those servers, the session state (HttpSession) would (usually) reside in RAM within that server. If a later request came in and that server was loaded down but other servers were idle, they could not be employed to handle the request. Or at a minimum, could not be employed unless the cluster was set up to serialize sessions and ship them between servers, which is extra overhead. There would be an asymmetry between the server currently holding the user’s state and the other webapp servers.&lt;/p&gt;
+
+&lt;p&gt;A stateless webapp, on the other hand, wouldn’t establish an HttpSession. Any ongoing state would be an artefact of (presumably distributed) backend processes. So you could send out requests to any server in the cluster that happened to be free at the moment. They would all be symmetrical in their response.&lt;/p&gt;
+
 </description>
         <pubDate>Sun, 25 Nov 2018 19:16:52 +0530</pubDate>
         <link>http://localhost:4000/blog/2018/java-notes/</link>

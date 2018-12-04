@@ -25,11 +25,11 @@
 
 </head>
 <body>
-  const version = '20181127142203';
+  const version = '20181204193934';
 const cacheName = `static::${version}`;
 
 const buildContentBlob = () => {
-  return ["/blog/2018/security-notes/","/blog/2018/java-notes/","/blog/2018/welcome-to-my-blog/","/about/","/feed.xml","/icons/","/cv/","/","/css/main.css","/manifest.json","/assets/search.json","/search/","/assets/styles.css","/blog/index.html","", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
+  return ["/blog/2018/security-notes/","/blog/2018/java-notes/","/blog/2018/welcome-to-my-blog/","/about/","/feed.xml","/","/cv/","/css/main.css","/manifest.json","/assets/search.json","/search/","/assets/styles.css","/blog/index.html","", "/assets/default-offline-image.png", "/assets/scripts/fetch.js"
   ]
 }
 

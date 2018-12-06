@@ -65,6 +65,10 @@
 
     <div class="post-content">
       
+        <figure class="post-thumbnail ">
+          <img src="/images/java.jpg" alt="Java Cheat Sheet!">
+        </figure>
+      
       <p>Hashmap =&gt; Hashtable or ConcurrentHashMap.</p>
 
 <hr />
@@ -73,11 +77,11 @@
 
 <hr />
 
-<p>Collections such as <code>HashMap</code> and <code>HashSet</code> use a hashcode value of an object to determine how it should be stored inside a collection, and the hashcode is used again in order to locate the object in its collection. 
+<p>Collections such as <code class="highlighter-rouge">HashMap</code> and <code class="highlighter-rouge">HashSet</code> use a hashcode value of an object to determine how it should be stored inside a collection, and the hashcode is used again in order to locate the object in its collection. 
 Hashing retrieval is a two-step process:</p>
 <ul>
-  <li>Find the right bucket (using <code>hashCode()</code>)</li>
-  <li>Search the bucket for the right element (using <code>equals()</code> )</li>
+  <li>Find the right bucket (using <code class="highlighter-rouge">hashCode()</code>)</li>
+  <li>Search the bucket for the right element (using <code class="highlighter-rouge">equals()</code> )</li>
 </ul>
 
 <hr />
@@ -91,6 +95,14 @@ Statelessness is easier to distribute across load-balanced servers. Since no two
 If the webapp was stateful, once a client had logged into one of those servers, the session state (HttpSession) would (usually) reside in RAM within that server. If a later request came in and that server was loaded down but other servers were idle, they could not be employed to handle the request. Or at a minimum, could not be employed unless the cluster was set up to serialize sessions and ship them between servers, which is extra overhead. There would be an asymmetry between the server currently holding the user’s state and the other webapp servers.</p>
 
 <p>A stateless webapp, on the other hand, wouldn’t establish an HttpSession. Any ongoing state would be an artefact of (presumably distributed) backend processes. So you could send out requests to any server in the cluster that happened to be free at the moment. They would all be symmetrical in their response.</p>
+
+<hr />
+
+<p>Bean
+@Autowired
+IOC - it is not going to instantiate the object utill it required</p>
+
+<p>@cbcertservice interface what kind of service would be injected in this is decided run time ..and that implementation would be annoted as @Service</p>
 
 
     </div>

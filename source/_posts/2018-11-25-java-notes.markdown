@@ -3,7 +3,7 @@ layout: post
 title:  "Java Cheat Sheet!"
 date:   2018-11-25 13:46:52
 comments: true
-image: 
+image: /images/java.jpg
 categories: 
 ---
 
@@ -32,5 +32,14 @@ Suppose we have a cluster of 12 identical J2EE webapp servers. Each one has the 
 If the webapp was stateful, once a client had logged into one of those servers, the session state (HttpSession) would (usually) reside in RAM within that server. If a later request came in and that server was loaded down but other servers were idle, they could not be employed to handle the request. Or at a minimum, could not be employed unless the cluster was set up to serialize sessions and ship them between servers, which is extra overhead. There would be an asymmetry between the server currently holding the user's state and the other webapp servers.
 
 A stateless webapp, on the other hand, wouldn't establish an HttpSession. Any ongoing state would be an artefact of (presumably distributed) backend processes. So you could send out requests to any server in the cluster that happened to be free at the moment. They would all be symmetrical in their response.
+
+-----
+
+Bean
+@Autowired
+IOC - it is not going to instantiate the object utill it required 
+
+@cbcertservice interface what kind of service would be injected in this is decided run time ..and that implementation would be annoted as @Service
+
 
 
